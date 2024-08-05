@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilson Móveis - Catálogo de Vendas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 1200px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .product img {
+            width: 150px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .product-info {
+            flex: 1;
+        }
+        .product-info h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .product-info p {
+            margin: 0 0 10px 0;
+            color: #666;
+        }
+        .product-info a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .product-info a:hover {
+            background-color: #218838;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Wilson Móveis</h1>
+        <p>O melhor em móveis para sua casa!</p>
+    </header>
+
+    <section id="colchoes">
+        <h2>Colchões</h2>
+        <div class="product">
+            <img src="caminho/para/imagem_colchao.jpg" alt="Colchão Conforto Total">
+            <div class="product-info">
+                <h3>Colchão Conforto Total</h3>
+                <p>Colchão de alta qualidade para noites de sono perfeitas.</p>
+                <p><strong>Preço: R$ 500,00</strong></p>
+                <a href="link/para/compra">Comprar agora</a>
+            </div>
+        </div>
+        <!-- Adicione mais produtos conforme necessário -->
+    </section>
+
+    <section id="camas">
+        <h2>Camas</h2>
+        <div class="product">
+            <img src="caminho/para/imagem_cama.jpg" alt="Cama Box King Size">
+            <div class="product-info">
+                <h3>Cama Box King Size</h3>
+                <p>Elegância e conforto em uma cama espaçosa.</p>
+                <p><strong>Preço: R$ 1.200,00</strong></p>
+                <a href="link/para/compra">Comprar agora</a>
+            </div>
+        </div>
+        <!-- Adicione mais produtos conforme necessário -->
+    </section>
+
+    <section id="beliches">
+        <h2>Beliches</h2>
+        <div class="product">
+            <img src="caminho/para/imagem_beliche.jpg" alt="Beliche Compacto">
+            <div class="product-info">
+                <h3>Beliche Compacto</h3>
+                <p>Perfeito para otimizar o espaço do quarto.</p>
+                <p><strong>Preço: R$ 800,00</strong></p>
+                <a href="link/para/compra">Comprar agora</a>
+            </div>
+        </div>
+        <!-- Adicione mais produtos conforme necessário -->
+    </section>
+
+    <section id="sofas">
+        <h2>Sofás</h2>
+        <div class="product">
+            <img src="caminho/para/imagem_sofa.jpg" alt="Sofá 3 Lugares">
+            <div class="product-info">
+                <h3>Sofá 3 Lugares</h3>
+                <p>Conforto e estilo para sua sala de estar.</p>
+                <p><strong>Preço: R$ 900,00</strong></p>
+                <a href="link/para/compra">Comprar agora</a>
+            </div>
+        </div>
+        <!-- Adicione mais produtos conforme necessário -->
+    </section>
+
+    <section id="guarda-roupas">
+        <h2>Guarda-Roupas</h2>
+        <div class="product">
+            <img src="caminho/para/imagem_guarda_roupa.jpg" alt="Guarda-Roupa 6 Portas">
+            <div class="product-info">
+                <h3>Guarda-Roupa 6 Portas</h3>
+                <p>Amplo espaço para organizar suas roupas.</p>
+                <p><strong>Preço: R$ 1.500,00</strong></p>
+                <a href="link/para/compra">Comprar agora</a>
+            </div>
+        </div>
+        <!-- Adicione mais produtos conforme necessário -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Wilson Móveis. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
